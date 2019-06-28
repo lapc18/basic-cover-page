@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html, body{
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+
+html,
+body,
+header,
+#intro{
+    height: 100%;
+}
+
+.view{
+    background: url("/imgs/home/home.jpg") fixed no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.image-cover{
+    width: 100vw;
+    height: 100vh;
+    background-color: black no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item { 
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.text-cover{
+    position: absolute;
+    margin: 30px 0px 30px 0px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.vertical-center{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.content-main {
+    width:100%; 
+    top:10%; 
+    height: 100px;
+    top: 13%
+}
+
+.center-text{
+    text-align: center;
+}
+
+.bg-transparent{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.trans{
+    transition: all 1s ease;
+}
+
+#contact{
+    padding: 20px;
+}
+
+#mapa{
+    background: gray;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-google {
+background: #dd4b39;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+}
+
+.fa-android {
+background: #a4c639;
+color: white;
+}
+
+.card{
+    width: 18rem;
+    margin: 5px;
+    padding: 0;
+}
+
+.center{
+    justify-content: center;
+}
+
+.card-img-top{
+    height: 300px;
+    width: 18rem;
+}
+
+
+#greeting{
+    padding-top:23%;
+}
+
