@@ -1,5 +1,5 @@
-# devlegnd
-Página Oficial de DevLegnd.
+# Devlegnd Site
+Descripción técnica para Página Oficial de DevLegnd.
 
 Aquí es donde vamos a construir nuestro website con la siguiente estructura:
 
@@ -7,15 +7,15 @@ Aquí es donde vamos a construir nuestro website con la siguiente estructura:
 contener: 
 
     - Navbar
-        - Logo
+        - Logo | Nombre: DevLegnd
         - Inicio
         - Nosotros
         - Portafolios
         - Contactos
-    - Imagen de cover
-    - Seccion: Nosotros (preview)
+    - Imagen de cover | fondo con algun color + logo + tecnologias con las que trabajamos + iconos de S.O. para los que desarrollamos + presentar marca comercial 
+    - Seccion: Nosotros (mision, vision, valores) + team
     - Seccion: PortFolio (preview)
-    - Formulario: contacto rapido
+    - Formulario: contacto rapido (POST hacia el email de taim)
     - Footer: redes sociales, contactos en otros sites, etc...
 
 
