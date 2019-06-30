@@ -12,8 +12,15 @@ header,
     height: 100%;
 }
 
+h1{
+    font-size: 5.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+
 .view{
-    background: url("/imgs/home/home.jpg") fixed no-repeat center center;
+    background: url("/imgs/home/welcome.jpg") fixed no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -162,6 +169,6 @@ color: white;
 
 
 #greeting{
-    padding-top:23%;
+    padding-top:15%;
 }
 

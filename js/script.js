@@ -1,8 +1,20 @@
 $(document).ready(function(){
-    $("#home").load("views/home.html");
+
+    //$("#home").load("views/home.html");
+
     $("#contact").load("views/contact.html");
+
+    $("#portfolio").load("views/portfolio.html");
+
+    $("#activities").load("views/activities.html");
+
+    $("#team").load("views/team.html");
+
+
     initMap();
 });
+
+
 
 
 $(window).scroll(function(){
@@ -12,6 +24,12 @@ $(window).scroll(function(){
     } else{
         $("#menu").removeClass("bg-dark");
         $("#menu").addClass("trans");
+    }
+
+    if ($(window).scrollTop() > 500) {
+        $("#li-nav-home").removeClass("active");
+    } else{
+        $("#li-nav-home").addClass("active");
     }
 });
 
