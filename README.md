@@ -2,6 +2,8 @@
 
 A basic Cover page with contacts and "working"message.
 
+You can visit the site using this [link](https://basic-cover-page.netlify.app/)
+
 ## Installation
 
 Use git to clone this [repo](http://github.com/lapc18/basic-cover-page) and serve it in apache or IIS.
@@ -19,4 +21,4 @@ You can follow me on:
 - [Facebook](https://facebook.com/lapx18)
 - [Facebook](https://facebook.com/devlegnd)
 
-Alse can check my [Business Page](https:////devlegnd.com)
+Also can check my [Business Page](https:////devlegnd.com)
