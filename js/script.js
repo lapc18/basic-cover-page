@@ -2,16 +2,16 @@ $(document).ready(function(){
 
     //$("#home").load("views/home.html");
 
-    $("#contact").load("views/contact.html");
+    //$("#contact").load("views/contact.html");
 
-    $("#portfolio").load("views/portfolio.html");
+    //$("#portfolio").load("views/portfolio.html");
 
-    $("#activities").load("views/activities.html");
+    //$("#activities").load("views/activities.html");
 
-    $("#team").load("views/team.html");
+    //$("#team").load("views/team.html");
 
 
-    initMap();
+    //initMap();
 });
 
 
@@ -34,6 +34,7 @@ $(window).scroll(function(){
 });
 
 function initMap(){
+
     console.log("Map init...");
     var location = new google.maps.LatLng(18.281007, -70.327285);
     var map = new google.maps.Map(document.getElementById('mapa'), {

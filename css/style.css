@@ -18,6 +18,9 @@ h1{
     margin: 0;
 }
 
+.logo{
+    background-image : url("../imgs/logo.jpg");
+}
 
 .view{
     background: url("/imgs/home/welcome.jpg") fixed no-repeat center center;
